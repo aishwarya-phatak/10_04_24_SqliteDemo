@@ -12,9 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var dbHelper = DBHelper()
+        dbHelper.insertStudentDataIntoTable(newId: <#T##Int#>, newName: <#T##String#>)
+        dbHelper.deleteStatement(newId: <#T##Int#>)
+        
         
     }
-
-
 }
-
